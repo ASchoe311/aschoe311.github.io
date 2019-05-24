@@ -1,7 +1,3 @@
----
-layout: default
-title: Home - Adam Schoenfeld
----
 <!doctype html>
 <html>
   <head>
@@ -9,6 +5,7 @@ title: Home - Adam Schoenfeld
     <title>{{ page.title }}</title>
   </head>
   <body>
-    <h1>{{ "Hello World!" | capitalize }}</h1>
+    <div align="left">{% include navigation.html %}</div>
+    {{ content }}
   </body>
 </html>
